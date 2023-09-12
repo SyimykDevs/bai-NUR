@@ -4,7 +4,7 @@ import Layout from './Components/Layout/Layout';
 import AboutPage from './Pages/About/AboutPage';
 import ContactPage from './Pages/Contact/ContactPage';
 import Home from './Pages/Home/HomePage';
-import Service from './Pages/Service/ServicePage';
+import Service from './Pages/Servic/ServicePage';
 import './translate/i18n';
 import BasketPage from './Pages/Basket/BasketPage';
 

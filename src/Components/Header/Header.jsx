@@ -7,9 +7,12 @@ import { AiOutlineHeart } from "react-icons/ai";
 import ReactFlagsSelect from "react-flags-select";
 import  { useState } from "react";
 import { useTranslation } from 'react-i18next';
+
+import ModalUser from '../modalUser/ModalUser'
 import "./Header.css";
 
 function Header ()  {
+  const [modal, setModal] = useState(false);
     const { t } = useTranslation()
     const { i18n } = useTranslation()
     console.log("i18n: ", i18n);
@@ -38,10 +41,18 @@ function Header ()  {
                 <Link to="/">{t("Главный")}</Link>
                 <Link to="/About">{t("О нас")}</Link>
                 <Link to="/Contact">{t("Услуги")}</Link>
-                <Link to="/Service">Контакт</Link>
+                <Link to="/Service">{t("Контакт")}</Link>
                 <AiOutlineUser 
+                onClick={()=> {
+                  setModal(true)
+                }}
                 className="user-icons"
                 />
+                {modal && (
+                  <ModalUser 
+                  setModal={setModal}
+                  />
+                )}
                   <ReactFlagsSelect
                   className="menu-flags"
                   defaultCountry="RU"
