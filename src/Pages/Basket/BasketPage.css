@@ -1,0 +1,13 @@
+.basket {
+    margin-top: 10rem;
+}
+
+.basket-icon {
+    display: flex; 
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10rem;
+    font-size: 50px;
+    font-family: 'Monserrat' sans-serif;
+    color:  #0000FF; 
+}

@@ -52,9 +52,12 @@ function Header ()  {
                   optionsSize={12}
                   selectedSize={12}
                   />
+                  <Link to='/Basket'>
                   <SlBasket 
                   className="basket-header"
                   />
+                  </Link>
+                  
                   <AiOutlineHeart 
                   className="heart-header"
                   />
