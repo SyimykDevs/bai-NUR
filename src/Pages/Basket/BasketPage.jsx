@@ -31,17 +31,17 @@ const BasketPage = () => {
                   <div className="box1">
                         <img src={Restangle} alt="" />
                         <div className="box-content">
-                       <h4>Детская Футболка</h4>
-                        <p>Nike Sportswear Club+ Button-Down <br />
+                       <h4 className='basketContentH4' >Детская Футболка</h4>
+                        <p className='basketContent'>Nike Sportswear Club+ Button-Down <br />
                             Short-Sleeve Gömlek</p>
-                            <h6>Цена: 71$</h6>
+                            <h6 className='text-h6'>Цена: 71$</h6>
                             <div className='counter-container'>
-         <button onClick={() => setCounter(counter - 1)}>-</button>
-         <p>{counter}</p>
-         <button onClick={() => setCounter(counter + 1)}>+</button>
+         <button className='btn-counter'  onClick={() => setCounter(counter - 1)}>-</button>
+         <p className='counter-text'>{counter}</p>
+         <button className='btn-counter' onClick={() => setCounter(counter + 1)}>+</button>
         
       </div>
-      <button className='btn-heart'>Оформить заказ</button>
+      <button className='btn-basket'>Оформить заказ</button>
                             </div>
                       </div>
                     <h3>Всего: 142$</h3>
@@ -49,17 +49,17 @@ const BasketPage = () => {
                    <div className="box2">
                     <img src={Restangle} alt="" />
                     <div className="box-content">
-                       <h4>Детская Футболка</h4>
-                        <p>Nike Sportswear Club+ Button-Down <br />
+                       <h4 className='basketContentH4'>Детская Футболка</h4>
+                        <p className='basketContent'>Nike Sportswear Club+ Button-Down <br />
                             Short-Sleeve Gömlek</p>
-                            <h6>Цена: 71$</h6>
+                            <h6 className='text-h6'>Цена: 71$</h6>
                             <div className='counter-container'>
-         <button onClick={() => setCounter(counter - 1)}>-</button>
-         <p>{counter}</p>
-         <button onClick={() => setCounter(counter + 1)}>+</button>
+         <button className='btn-counter' onClick={() => setCounter(counter - 1)}>-</button>
+         <p className='counter-text'>{counter}</p>
+         <button className='btn-counter' onClick={() => setCounter(counter + 1)}>+</button>
          
       </div>
-      <button className='btn-heart'>Оформить заказ</button>  
+      <button className='btn-basket'>Оформить заказ</button>  
                      </div>
                     </div>
                 </div>
