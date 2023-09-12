@@ -1,0 +1,27 @@
+.about-content  h2{
+    font-size: 50px;
+    /* font-weight: 500; */
+    font-family: 'Monserrat' sans-serif;
+    color: #0D99FF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10rem;
+}
+.content-h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: 50px;
+    color: #0D99FF;
+}
+.content p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.content a {
+    color: #0D99FF;
+}
