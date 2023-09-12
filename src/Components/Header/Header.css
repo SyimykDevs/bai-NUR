@@ -1,0 +1,59 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.images-logo {
+  margin-left: -50px;
+}
+
+nav > ul {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-left: 290px;
+}
+
+ul a {
+  position: relative;
+}
+ul a::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 25px;
+  transform: scaleX(0);
+  background: #81bfdc;
+}
+
+ul a:hover::before {
+  transform: scaleX(1);
+}
+
+.user-icons {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu-flags {
+  margin-left: -15px;
+}
+
+.basket-header {
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.heart-header {
+    margin-left: -20px;
+    cursor: pointer;
+}
