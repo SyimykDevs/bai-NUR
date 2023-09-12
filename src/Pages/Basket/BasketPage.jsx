@@ -36,10 +36,12 @@ const BasketPage = () => {
                             Short-Sleeve Gömlek</p>
                             <h6>Цена: 71$</h6>
                             <div className='counter-container'>
-         <button onClick={() => setCounter(counter + 1)}>+</button>
          <button onClick={() => setCounter(counter - 1)}>-</button>
-         <p>Count: {counter}</p>
+         <p>{counter}</p>
+         <button onClick={() => setCounter(counter + 1)}>+</button>
+        
       </div>
+      <button className='btn-heart'>Оформить заказ</button>
                             </div>
                       </div>
                     <h3>Всего: 142$</h3>
@@ -52,11 +54,12 @@ const BasketPage = () => {
                             Short-Sleeve Gömlek</p>
                             <h6>Цена: 71$</h6>
                             <div className='counter-container'>
-         <button onClick={() => setCounter(counter + 1)}>+</button>
          <button onClick={() => setCounter(counter - 1)}>-</button>
-         <p>Count: {counter}</p>
+         <p>{counter}</p>
+         <button onClick={() => setCounter(counter + 1)}>+</button>
+         
       </div>
-                            
+      <button className='btn-heart'>Оформить заказ</button>  
                      </div>
                     </div>
                 </div>
