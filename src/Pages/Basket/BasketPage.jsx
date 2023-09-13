@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-
 import './BasketPage.css'
 import Restangle from './image/Rectangle 9.png'
 
