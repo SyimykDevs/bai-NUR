@@ -8,6 +8,7 @@ import Service from './Pages/Servic/ServicePage';
 import './translate/i18n';
 import BasketPage from './Pages/Basket/BasketPage';
 import { useEffect, useState } from 'react';
+import axios from 'axios';
 // import Heart from './Pages/Heart/heart'
 
 
