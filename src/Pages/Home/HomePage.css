@@ -4,6 +4,7 @@
     background-size: cover;
     width: 100%;
     height:400px;
+    
 }
 .text-background {
     display: flex;
@@ -29,4 +30,62 @@
 }
 .span-blue {
     color:#0D99FF;
+}
+
+/* ///////////////////// section-cards ///////////////// */
+
+.section-cards {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.btn-filter {
+    float: right;
+    width: 100px;
+}
+
+.cards-map {
+    padding-top: 100px;
+}
+
+/* ///////////////////// cards.map ////////////////// */
+
+
+.box {
+    background-color: #0D99FF;
+    border-radius: 15px;
+    width: 370px;
+}
+
+.images-cards{
+    width: 400px;
+    padding: 10px;
+}
+
+.cards-content {
+    margin-left: 20px;
+}
+
+.h2-name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.p-title {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+
+.h3-price {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.btn-add-card {
+    font-family: "Montserrat", sans-serif;
 }

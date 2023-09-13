@@ -1,14 +1,14 @@
-import React from 'react'
-import { useState } from 'react';
-// import {TbTruckDelivery } from 'react-icons/tb'
+// import React from 'react'
+// import { useState } from 'react';
+// // import {TbTruckDelivery } from 'react-icons/tb'
 
-const Delivery = () => {
-    const [modal, setDelivery] = useState(false);
-  return (
-    <div>
+// const Delivery = () => {
+//     const [modal, setDelivery] = useState(false);
+//   return (
+//     <div>
   
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default Delivery
+// export default Delivery
