@@ -55,7 +55,9 @@ const BasketPage = () => {
          <button className='btn-counter' onClick={() => setCounter(counter + 1)}>+</button>
          
       </div>
-      <button className='btn-basket'>Оформить заказ</button>  
+      <button onClick={() => {
+                    setDelivery(true);
+                  }}className='btn-basket'>Оформить заказ</button>  
                      </div>
                     </div>
                 </div>

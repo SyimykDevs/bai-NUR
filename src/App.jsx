@@ -7,6 +7,7 @@ import Home from './Pages/Home/HomePage';
 import Service from './Pages/Servic/ServicePage';
 import './translate/i18n';
 import BasketPage from './Pages/Basket/BasketPage';
+import Delivery from './Pages/delivery/Delivery'
 // import Heart from './Pages/Heart/heart'
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='Contact' element={<ContactPage />} />
         <Route path='Service' element={<Service />} />
         <Route path='Basket' element={<BasketPage/>}/>
+        <Route path='Delivery' element={<Delivery />} />
         {/* <Route path='Heart' element={<Heart/>}/> */}
         </Route>
       </Routes>
