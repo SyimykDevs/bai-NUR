@@ -5,73 +5,67 @@ import { AiOutlineUser } from "react-icons/ai";
 import { SlBasket } from "react-icons/sl";
 import { AiOutlineHeart } from "react-icons/ai";
 import ReactFlagsSelect from "react-flags-select";
-import  { useState } from "react";
-import { useTranslation } from 'react-i18next';
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
-import ModalUser from '../modalUser/ModalUser'
+import ModalUser from "../modalUser/ModalUser";
 import "./Header.css";
 
-function Header ()  {
+function Header() {
   const [modal, setModal] = useState(false);
-    const { t } = useTranslation()
-    const { i18n } = useTranslation()
-    console.log("i18n: ", i18n);
-    console.log(t, 'ttttttttttt');
+  const { t } = useTranslation();
+  const { i18n } = useTranslation();
+  console.log("i18n: ", i18n);
+  console.log(t, "ttttttttttt");
 
-    const [select, setSelect] = useState("RU");
+  const [select, setSelect] = useState("RU");
 
-    const onSelect = code => {
-        console.log('change----', code.toLowerCase() );
-        i18n.changeLanguage(code.toLowerCase());
-        setSelect(code);
-    };
-    // const onSelect = (code) => setSelect(code);
-    // console.log(select)
+  const onSelect = (code) => {
+    console.log("change----", code.toLowerCase());
+    i18n.changeLanguage(code.toLowerCase());
+    setSelect(code);
+  };
+  // const onSelect = (code) => setSelect(code);
+  // console.log(select)
 
   return (
     <>
       <header className="header">
         <div className="container">
           <div className="header-wrapper">
-                <Link to="/">
-                  <img className="images-logo" src={Logo} alt="" />
-                </Link>
+            <Link to="/">
+              <img className="images-logo" src={Logo} alt="" />
+            </Link>
             <nav>
               <ul>
                 <Link to="/">{t("Главный")}</Link>
                 <Link to="/About">{t("О нас")}</Link>
                 <Link to="/Contact">{t("Услуги")}</Link>
                 <Link to="/Service">{t("Контакт")}</Link>
-                <AiOutlineUser 
-                onClick={()=> {
-                  setModal(true)
-                }}
-                className="user-icons"
+                <AiOutlineUser
+                  onClick={() => {
+                    setModal(true);
+                  }}
+                  className="user-icons"
                 />
-                {modal && (
-                  <ModalUser 
-                  setModal={setModal}
-                  />
-                )}
-                  <ReactFlagsSelect
+                {modal && <ModalUser setModal={setModal} />}
+                <ReactFlagsSelect
                   className="menu-flags"
                   defaultCountry="RU"
                   selected={select}
                   onSelect={onSelect}
                   countries={["RU", "US"]}
-                  customLabels={{RU: 'RU', US: 'EN'}}
+                  customLabels={{ RU: "RU", US: "EN" }}
                   optionsSize={12}
                   selectedSize={12}
-                  />
-                  <Link to='/Basket'>
-                  <SlBasket 
-                  className="basket-header"
-                  />
-                  </Link>
-                  
-                  <AiOutlineHeart 
-                  className="heart-header"
-                  />
+                />
+                <Link to="/Basket">
+                  <SlBasket className="basket-header" />
+                </Link>
+
+                <Link to="/heart">
+                  <AiOutlineHeart className="heart-header" />
+                </Link>
               </ul>
             </nav>
           </div>

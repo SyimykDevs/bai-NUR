@@ -1,4 +1,4 @@
-.basket {
+/* .basket {
     margin-top: 10rem;
 }
 
@@ -12,21 +12,19 @@
     color:  #0D99FF; 
 }
 .boxes {
-    padding-top: 4rem;[]
-    
+    padding-top: 4rem;
     
 }
 
 .box1 {
     display: flex;
-    border-radius: 12px;
     gap: 20px;
     margin: 20px;
     padding: 10px;
-    width: 800px;
-    border: 3px solid #0D99FF;
+    width: 900px;
+    border: 1px solid red;
 }
-.box1 > img {
+.box1 img {
     width: 300px;
     height: 300px;
 }
@@ -42,29 +40,24 @@
     font-weight: 600;
     line-height: 61px;
     letter-spacing: 0em;
-    margin-top: -4rem;
+    padding-top: 2rem;
 }
 .box2 {
     display: flex;
-    border-radius: 12px;
     gap: 20px;
     margin: 20px;
     padding: 10px;
-    width: 800px;
-    border: 3px solid #0D99FF;
+    width: 900px;
+    border: 1px solid red;
 }
-.box2 > img {
+.box2 img {
     width: 300px;
     height: 300px;
 }
 .box-content {
-    /* background-color:#0D99FF ; */
-    /* width: 600px; */
-    border-radius:20px ;
-    
-    /* margin: 20px; */
+    margin: 20px;
 }
-.box-content .basketContentH4 {
+.box-content h4 {
     font-family: 'Montserrat' sans-serif;
     font-size: 35px;
     font-weight: 600;
@@ -73,7 +66,7 @@
     text-align: left;
     margin: 15px;
 }
-.box-content .basketContent{
+.box-content p{
     font-family: 'Montserrat' sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -82,8 +75,8 @@
     text-align: left;
     margin: 13px;
 }
-.box-content .text-h6 {
-    font-family: 'Montserrat'sans-serif;
+.box-content h6 {
+    font-family: Montserrat;
     font-size: 27px;
     font-weight: 600;
     line-height: 37px;
@@ -91,35 +84,4 @@
     margin-left: 0.8rem;
     margin-top: 3rem;
 
-}
-.counter-container {
-    display: flex;
-    width: 150px;
-
-}
-.counter-container .counter-text{
-    font-size: 30px;
-    margin-top: 0.8rem;
-}
-
-.btn-counter{
-    width: 40px;
-    border: none;
-    color: black;
-    border-radius: 12px;
-    margin: 0.8rem;
-    font-size: 30px;
-}
-
-.btn-basket {
-    width: 260px;
-    background-color: #0000FF;
-    color: white;
-    font-family: 'Montserrat' sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    border-radius: 12px;
-    border: none;
-    line-height: 31px;
-    padding: 8px;
-}
+} */

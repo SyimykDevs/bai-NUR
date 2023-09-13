@@ -1,28 +1,25 @@
 
 import React, { useState } from 'react';
+
 import './BasketPage.css'
 import Restangle from './image/Rectangle 9.png'
 
 
 const BasketPage = () => {
-    const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0);
   return (
-
     <>
-     
-    <div className='section'>
+      <div className="section">
         <div className="container">
-            <div className="basket-content">
-                <div className="basket-icon">
-                    <h2>Корзина</h2>
-                </div>
+          <div className="basket-content">
+            <div className="basket-icon">
+              <h2>Корзина</h2>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-
-    
-    <div className="basketContentAll">
+      <div className="basketContentAll">
         <div className="container">
             <div className="basket-section">
                 <div className="boxes">
@@ -35,7 +32,7 @@ const BasketPage = () => {
                             Short-Sleeve Gömlek</p>
                             <h6 className='text-h6'>Цена: 71$</h6>
                             <div className='counter-container'>
-         <button className='btn-counter'  onClick={() => setCounter(counter - 1)}>-</button>
+         <button className='btn-counter' onClick={() => setCounter(counter - 1)}>-</button>
          <p className='counter-text'>{counter}</p>
          <button className='btn-counter' onClick={() => setCounter(counter + 1)}>+</button>
         
@@ -64,9 +61,9 @@ const BasketPage = () => {
                 </div>
             </div>
         </div>
-    </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default BasketPage
+export default BasketPage;
