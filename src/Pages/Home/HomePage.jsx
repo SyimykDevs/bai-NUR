@@ -23,24 +23,24 @@ const Home = ({ product }) => {
           </div>
 
           <div className="cards-map">
-            {product.map((item) => {
-              return (
-                <>
-                 <div className="boxes">
-                  <div key={item.id} className="box">
-                    <img className="images-cards" src={item.img} alt="" />
-                    <div className="cards-content">
-                      <h2 className="h2-name">{item.name}</h2>
-                      <p className="p-title">{item.title}</p>
-                      <h3 className="h3-price">{item.price}</h3>
-                      <button className="btn-add-card">Добавить в корзину</button>
-                      <button>jjjj</button>
-                    </div>
-                  </div>
+            {
+              product.map(item => (
+                
+                <div className="boxes">
+                 <div key={item.id} className="box">
+                   <img className="images-cards" src={item.img} alt="" />
+                   <div className="cards-content">
+                     <h2 className="h2-name">{item.name}</h2>
+                     <p className="p-title">{item.title}</p>
+                     <h3 className="h3-price">{item.price}</h3>
+                     <button className="btn-add-card">Добавить в корзину</button>
+                     <button>jjjj</button>
+                   </div>
                  </div>
-                </>
-              );
-            })}
+                </div>
+              
+              ))
+            }
           </div>
         </div>
       </section>
