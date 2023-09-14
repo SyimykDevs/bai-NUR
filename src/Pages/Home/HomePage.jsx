@@ -34,6 +34,7 @@ const Home = ({ product }) => {
                       <p className="p-title">{item.title}</p>
                       <h3 className="h3-price">{item.price}</h3>
                       <button className="btn-add-card">Добавить в корзину</button>
+                      <button>jjjj</button>
                     </div>
                   </div>
                  </div>
