@@ -36,9 +36,8 @@ const Home = ({ product }) => {
                     <div className="cards-content">
                       <h2 className="h2-name">{item.name}</h2>
                       <p className="p-title">{item.title}</p>
-                      <h3 className="h3-price">{item.price}</h3>
+                      <h3 className="h3-price">Цена: {item.price} сом</h3>
                       <button className="btn-add-card">Добавить в корзину</button>
-                      <button>jjjj</button>
                     </div>
                   </div>
                  </div>

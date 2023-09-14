@@ -6,7 +6,7 @@
 }
 
 .images-logo {
-  margin-left: -50px;
+  margin-left: -90px;
 }
 
 nav > ul {
@@ -15,7 +15,7 @@ nav > ul {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  margin-left: 290px;
+  margin-left: 380px;
 }
 
 ul a {

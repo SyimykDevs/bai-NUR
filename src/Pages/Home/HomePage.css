@@ -50,11 +50,18 @@
 
 /* ///////////////////// cards.map ////////////////// */
 
+.cards-map{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
 
 .box {
-    background-color: #0D99FF;
+    background-color: rgba(221, 145, 145, 0.531);
     border-radius: 15px;
     width: 370px;
+    height: 600px;
 }
 
 .images-cards{
@@ -63,7 +70,9 @@
 }
 
 .cards-content {
+    margin-top: 10px;
     margin-left: 20px;
+    
 }
 
 .h2-name {
@@ -74,7 +83,10 @@
 
 .p-title {
     font-family: "Montserrat", sans-serif;
+    width: 300px;
     margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .h3-price {
@@ -83,9 +95,16 @@
 }
 
 
-
-
-
 .btn-add-card {
     font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    background: #0D99FF; 
+    border: none;
+    border-radius: 12px;
 }
