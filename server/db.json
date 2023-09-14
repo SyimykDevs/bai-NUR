@@ -13,12 +13,30 @@
 
         {
             "id":2,
-            "img":"../public/json-image/T-shirt-1-removebg-preview.png",
+            "img":"../public/json-image/T-shirt-5-removebg-preview.png",
+            "name": "Мужской футболка",
+            "title":"Nike Sportswear Club+Button-Down Short-Sleeve Gömlek",
+            "price":"71$",
+            "category":"men"
+        },
+        {
+            "id":2,
+            "img":"../public/json-image/T-shirt-5-removebg-preview.png",
+            "name": "Мужской футболка",
+            "title":"Nike Sportswear Club+Button-Down Short-Sleeve Gömlek",
+            "price":"71$",
+            "category":"men"
+        },
+        {
+            "id":2,
+            "img":"../public/json-image/T-shirt-5-removebg-preview.png",
             "name": "Мужской футболка",
             "title":"Nike Sportswear Club+Button-Down Short-Sleeve Gömlek",
             "price":"71$",
             "category":"men"
         }
+
+
 
 
 
