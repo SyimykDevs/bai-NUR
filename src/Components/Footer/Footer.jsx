@@ -1,5 +1,9 @@
 import React from 'react' 
 import logoFooter from './image/nurbai-transformed 1.png'
+import Instagram from './image/Vector.png'
+import WhatsApp from './image/Vector (1).png'
+import Telegram from './image/basil_telegram-outline.png'
+import Gmail from './image/Vector (2).png'
 import './Footer.css'
 
 const Footer = () => {
@@ -8,28 +12,35 @@ const Footer = () => {
         <div className="container">
           <div className="footer-content">
             <div className="logo-footer">
-              <img  style={{width:'100', height:'100'}} src={logoFooter} alt="" />
+              <img  style={{width:'200', height:'200'}} src={logoFooter} alt="" />
+              <p>Спортивная одежда НА ЗАКАЗ <br />
+                  По городу Бишкек и всему <br /> 
+                  Кыргызстану. Только оригинальные<br />
+                  товары. </p>
             </div>
-           
-              <div className="category">
-                <h3 className='master-category'>КАТЕГОРИЯ</h3>
+            <div className="text-footer">
+              <div className="footer-end">
+              <h2>КАТЕГОРИЯ</h2>
               </div>
-              <div className="network-text">
-                <h3 className='network'>МЫ В СОЦ. СЕТЯХ</h3>
+              <div className="smooth-text">
+                <p>для Мужчин</p>
+                <p>для Женщин</p>
+                <p>для Детей</p>
               </div>
-          </div>
-          <div className="social-media">
-              <div className="footer-textContent">
-              <h4 className='text-footer'>Спортивная одежда НА ЗАКАЗ <br />По городу Бишкек и всему Кыргызстану. <br />Только оригинальные товары.</h4>
-            </div>
-            <div>
 
-            <h4 className='text-category'>для Мужчин</h4>
-                <h4 className='text-category-2'>для Женщин</h4>
-                <h4 className='text-category-3'>для Детей</h4>
-            <div className='Network-icon'>
             </div>
-            </div>
+            
+              <div className="footer-icon">
+              <h2>МЫ В СОЦ. СЕТЯХ</h2>
+                <div className="footer-network">
+                  <img src={Instagram} alt="" />
+                  <img src={WhatsApp} alt="" />
+                  <img src={Telegram} alt="" />
+                  <img src={Gmail} alt="" />
+                </div>
+              </div>
+           
+             
           </div>
 
         </div>
