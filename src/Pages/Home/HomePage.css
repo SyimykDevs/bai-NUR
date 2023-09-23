@@ -109,23 +109,15 @@
     height: 30px;
     color: #fff;
     background: #0D99FF; 
-    border: 2px solid #646FD4;
+    border: none;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
+    transition: 0.3s all;
 }
 
-.btn-add-card::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    background-color: #646FD4;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all o.5s;
-}
 
-.btn-add-card:hover::before {
-    width: 100%;
+.btn-add-card:hover {
+    width: 185px;
+    height: 33px;
 }

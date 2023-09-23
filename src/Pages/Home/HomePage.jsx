@@ -12,7 +12,7 @@ const Home = ({ product }) => {
             <div className="text-background">
               <h2>Главная </h2>
               <h3>
-                <span className="span-blue">Главная </span> ||
+                <span className="span-blue">Главная </span> //
                 <span> Все Товары</span>
               </h3>
             </div>
@@ -23,7 +23,7 @@ const Home = ({ product }) => {
       <section className="section-cards">
         <div className="container">
           <div className="wrapper-cards">
-            <button className="btn-filter">Фильтр</button>
+            <button className="btn-filter">Фильтрация</button>
           </div>
 
           <div className="cards-map">
