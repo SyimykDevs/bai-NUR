@@ -3,7 +3,6 @@ import { initReactI18next } from "react-i18next";
 //ru VS en
 import translationRu from "./locales/ru.json";
 import translationEn from "./locales/en.json";
-
 i18next.use(initReactI18next).init({
   resources: {
     ru: {

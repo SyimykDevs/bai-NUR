@@ -63,9 +63,9 @@ function Header() {
                   <SlBasket className="basket-header" />
                 </Link>
 
-                <Link to="/heart">
+               
                   <AiOutlineHeart className="heart-header" />
-                </Link>
+                
               </ul>
             </nav>
           </div>

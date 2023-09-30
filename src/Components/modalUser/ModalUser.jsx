@@ -28,7 +28,7 @@ const ModalUser = ({ setModal }) => {
               <p>
                 <input
                   className="input-modal"
-                  type="passowrd"
+                  type="password"
                   placeholder="password"
                 />
               </p>

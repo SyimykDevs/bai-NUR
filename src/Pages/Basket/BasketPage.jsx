@@ -55,9 +55,12 @@ const BasketPage = () => {
          <button className='btn-counter' onClick={() => setCounter(counter + 1)}>+</button>
          
       </div>
+
+      <a href="https://api.whatsapp.com/send?phone=996702038656">
       <button onClick={() => {
                     setDelivery(true);
-                  }}className='btn-basket'>Оформить заказ</button>  
+                  }}className='btn-basket'>Оформить заказ</button>
+        </a>  
                      </div>
                     </div>
                 </div>
