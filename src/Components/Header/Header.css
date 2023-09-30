@@ -1,3 +1,11 @@
+.header {
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+  top: 0;
+}
+
 .header-wrapper {
   display: flex;
   flex-direction: row;

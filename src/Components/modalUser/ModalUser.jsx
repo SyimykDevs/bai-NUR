@@ -3,6 +3,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import Facebook from '../images/Vector.png';
 import Google from '../images/logos_google-icon.png';
 
+
 import "./ModalUser.css";
 
 const ModalUser = ({ setModal }) => {
